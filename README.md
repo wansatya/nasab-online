@@ -1,11 +1,11 @@
-# Family Tree Application
+# Nasab Online Application
 
 A React-based family tree application that allows users to create, visualize, and manage family relationships. Similar to FamilyEcho, this application provides an intuitive interface for building your family history.
 
 ## Features
 
 - **User Authentication**: Secure login with Google via Firebase
-- **Family Tree Management**: Create multiple family trees
+- **Nasab Online Management**: Create multiple family trees
 - **Person Management**: Add, edit, and delete family members with detailed information
 - **Traditional Family Visualization**: View family relationships with parents displayed on the same line and children below them
 - **Data Persistence**: All data is stored securely in Firebase Firestore
@@ -42,8 +42,8 @@ A React-based family tree application that allows users to create, visualize, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/family-tree.git
-   cd family-tree
+   git clone https://github.com/wansatya/nasab-online.git
+   cd nasab-online
    ```
 
 2. Install dependencies:
@@ -111,7 +111,7 @@ family-tree/
 2. Click "Sign in with Google" 
 3. Complete the Google authentication process
 
-### Managing Family Trees
+### Managing Nasab Online
 
 1. On the dashboard, create a new family tree by clicking "Create New"
 2. Enter a name for your family tree
@@ -128,7 +128,7 @@ family-tree/
 5. Edit a person by clicking the edit icon in their details panel
 6. Delete a person by clicking the delete icon in their details panel
 
-### Family Tree Visualization
+### Nasab Online Visualization
 
 The application uses a traditional family tree layout:
 
