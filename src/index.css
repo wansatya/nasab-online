@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bbbebe4d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b7c3c977;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bcbec0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-50;
+}
+
+.family-tree-node {
+  @apply p-2 rounded-lg shadow-md bg-white border border-gray-200 flex flex-col items-center;
+}
+
+.node-male {
+  @apply bg-blue-50 border-blue-200;
+}
+
+.node-female {
+  @apply bg-pink-50 border-pink-200;
+}
+
+.node-other {
+  @apply bg-purple-50 border-purple-200;
+}
+
+.node-selected {
+  @apply ring-2 ring-offset-2 ring-blue-500;
+}
